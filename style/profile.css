@@ -8,6 +8,19 @@
     font-variation-settings:
       "wdth" 100;
   }
+
+  /* header style */
+.header{
+  background-image: url('../images/developer.png') , url(../images/header_bg.png);
+  background-repeat: no-repeat ;
+  background-position: top left , bottom right;
+  image-orientation: 100px;
+  
+}
+
+
+
+
   .btn{
     background-color: #FD6E0A;
     font-size: 20px;
@@ -21,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 150px;
   }
 
   .nav-r{
@@ -47,3 +60,35 @@
     align-items: center;
     
   }
+
+  /* banner style */
+
+
+  .bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 150px;
+  }
+  .bannar-container{
+    width: 580px;
+  }
+.bannar-greeting{
+      color: #474747;
+      font-size: 30px;
+      font-weight: 600;
+}
+
+.bannar-header{
+font-size: 45px;
+font-weight: 700;
+}
+
+.bannar-discription{
+  color: #757575;
+  font-size: 18px;
+}
+
+img{
+  width: 400px;
+  height: 500px;
+}

@@ -9,13 +9,17 @@
       "wdth" 100;
   }
 
+  .secondary-bg{
+    background-color: antiquewhite;
+  }
   /* header style */
 .header{
   background-image: url('../images/developer.png') , url(../images/header_bg.png);
   background-repeat: no-repeat ;
   background-position: top left , bottom right;
-  image-orientation: 100px;
-  
+  background-size: contain; 
+   width: 100% , 30%;
+  height: 100%, 30%;   
 }
 
 
@@ -91,4 +95,151 @@ font-weight: 700;
 img{
   width: 400px;
   height: 500px;
+}
+
+main{
+  max-width: 1140px;
+  margin: 50px auto;
+}
+
+/* about section */
+
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  
+}
+
+.abouts-father{
+  border:  2px solid #474747 ;
+  padding: 30px;
+}
+
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;}
+
+ .section-title{
+      
+      font-size: 30px;
+      font-weight: bold;
+}
+
+.section-description {
+    color:#474747;
+} 
+
+.item-title{
+  color: #474747;
+}
+
+/* experiance sytle */
+
+.experiance{
+  margin: 50px;
+}
+
+.ex-img{
+  width: 50px;
+  height: 35px;
+}
+
+.experiance-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px ;
+ 
+}
+
+.experiance-header{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+ .experiance-discription{
+  color: #474747;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 50px;
+ }
+
+
+.experiance-item{
+  box-shadow: 0px 3px 3px 0px;
+  padding: 30px;
+  margin: 20px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+/* Resume styles */
+
+.resume-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 50px;
+}
+
+.resume-header{
+  text-align: center;
+  color: #474747;
+  font-weight: 700;
+}
+
+.education-header{
+  color: #474747;
+}
+
+.eudcation-title{
+  color: #757575;
+}
+
+.education-description{
+  color: #757575;
+}
+ .job-button{
+  width: 200px;
+  margin: 0px auto;
+ }
+ /* footer style */
+
+ .footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 130px 200px;
+   background-color: antiquewhite;
+   gap: 100px;
+ }
+/* .social-media{
+  align-items: center;
+    display: flex;
+    height: 96px;
+    justify-content: center;
+    padding-top: 16px;
+    position: relative;
+    width: 10%;
+    background-size: cover;
+
+} */
+
+.my-img{
+  width: 40px;
+  height: 30px;
+  
+}
+.my-input{
+  height: 60px;
+  width: 400px;
+}
+
+.A{
+  width: 400px;
+
+}
+.submit{
+  width: 200px;
+  margin: 20px auto;
 }
